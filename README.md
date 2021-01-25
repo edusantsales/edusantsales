@@ -1,5 +1,32 @@
 ### Hi there 👋
 
+### I'm Eduardo, a developer passionate about the power that technology has in improving people's lives..
+
+- 🚀  I’m currently working at [SEMAD](https://www.meioambiente.go.gov.br/) and [Linuxell](https://portal.linuxell.com.br/).
+- 🧑🏻‍💻  Currently learning: Flutter & Dart | JavaScript
+- 📫  How to reach me: [Linkedin](https://linkedin.com/in/edusantsales)
+- ⚡ Fun fact: I decided to be a developer because i wanted to make a game 👾
+
+[![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&layout=compact&theme=dark)](https://github.com/edusantsales/github-readme-stats)
+[![edusantsales github stats](https://github-readme-stats.vercel.app/api?username=edusantsales&show_icons=true&hide_title=true&theme=dark)](https://github.com/edusantsales/github-readme-stats)
+
+#### Follow me
+
+<p align="left">
+  <a href="https://www.instagram.com/edusantsales/">
+    <img alt="Instagram" src="assets/social/instagram2.svg" width="33">
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/edusantsales/">
+    <img alt="Linkedin" src="assets/social/linkedin2.svg" width="32">
+  </a>
+  &nbsp;
+  <a href="https://github.com/edusantsales">
+    <img alt="Github" src="assets/social/github.svg" width="32">
+  </a>
+</p>
+
+
 <!--
 **edusantsales/edusantsales** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
