@@ -14,15 +14,15 @@
 
 <p align="left">
   <a href="https://www.instagram.com/edusantsales/">
-    <img alt="Instagram" src="assets/social/instagram.svg" width="32">
+    <img alt="Instagram" src="assets/social/instagram.svg" width="32" height="32">
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/edusantsales/">
-    <img alt="Linkedin" src="assets/social/linkedin.svg" width="32">
+    <img alt="Linkedin" src="assets/social/linkedin.svg" width="32" height="32">
   </a>
   &nbsp;
   <a href="https://github.com/edusantsales">
-    <img alt="Github" src="assets/social/github3.svg" width="32">
+    <img alt="Github" src="assets/social/github.svg" width="32" height="32">
   </a>
 </p>
 
