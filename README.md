@@ -22,7 +22,7 @@
   </a>
   &nbsp;
   <a href="https://github.com/edusantsales">
-    <img alt="Github" src="assets/social/github.svg" width="32">
+    <img alt="Github" src="assets/social/github3.svg" width="32">
   </a>
 </p>
 
