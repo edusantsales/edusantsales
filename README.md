@@ -14,11 +14,11 @@
 
 <p align="left">
   <a href="https://www.instagram.com/edusantsales/">
-    <img alt="Instagram" src="assets/social/instagram2.svg" width="33">
+    <img alt="Instagram" src="assets/social/instagram.svg" width="32">
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/edusantsales/">
-    <img alt="Linkedin" src="assets/social/linkedin2.svg" width="32">
+    <img alt="Linkedin" src="assets/social/linkedin.svg" width="32">
   </a>
   &nbsp;
   <a href="https://github.com/edusantsales">
