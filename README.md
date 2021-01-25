@@ -2,15 +2,15 @@
 
 ### I'm Eduardo, a developer passionate about the power that technology has in improving people's lives..
 
-- 🚀  I’m currently working at [SEMAD](https://www.meioambiente.go.gov.br/) and [Linuxell](https://portal.linuxell.com.br/).
-- 🧑🏻‍💻  Currently learning: Flutter & Dart | JavaScript
-- 📫  How to reach me: [Linkedin](https://linkedin.com/in/edusantsales)
-- ⚡ Fun fact: I decided to be a developer because i wanted to make a game 👾
+- 🚀  &nbsp; I’m currently working at [SEMAD](https://www.meioambiente.go.gov.br/) and [Linuxell](https://portal.linuxell.com.br/).
+- 🧑🏻‍💻  &nbsp; Currently learning: Flutter & Dart | JavaScript
+- 📫  &nbsp; How to reach me: [Linkedin](https://linkedin.com/in/edusantsales)
+- ⚡ &nbsp; Fun fact: I decided to be a developer because i wanted to make a game 👾
 
 [![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&layout=compact&theme=dark)](https://github.com/edusantsales/github-readme-stats)
 [![edusantsales github stats](https://github-readme-stats.vercel.app/api?username=edusantsales&show_icons=true&hide_title=true&theme=dark)](https://github.com/edusantsales/github-readme-stats)
 
-#### Follow me
+## Follow me
 
 <p align="left">
   <a href="https://www.instagram.com/edusantsales/">
