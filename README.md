@@ -10,7 +10,7 @@
 [![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&layout=compact&theme=dark)](https://github.com/edusantsales/github-readme-stats)
 [![edusantsales github stats](https://github-readme-stats.vercel.app/api?username=edusantsales&show_icons=true&hide_title=true&theme=dark)](https://github.com/edusantsales/github-readme-stats)
 
-## Follow me
+## :white_check_mark: &nbsp; Follow me
 
 <p align="left">
   <a href="https://www.instagram.com/edusantsales/">
