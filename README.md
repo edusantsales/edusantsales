@@ -3,7 +3,7 @@
 ### I'm Eduardo, a developer passionate about the power that technology has in improving people's lives..
 
 - 🚀  &nbsp; I’m currently working at [SEMAD](https://www.meioambiente.go.gov.br/) and [Linuxell](https://portal.linuxell.com.br/).
-- 🧑🏻‍💻  &nbsp; Currently learning: Flutter & Dart | Node.js & TypeScript
+- 🧑🏻‍💻  &nbsp; Currently learning: Flutter & Dart | Node.js, JavaScript & TypeScript
 - 📫  &nbsp; How to reach me: [Linkedin](https://linkedin.com/in/edusantsales)
 - ⚡ &nbsp; Fun fact: I decided to be a developer because i wanted to make a game 👾
 
