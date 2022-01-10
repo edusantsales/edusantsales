@@ -2,7 +2,7 @@
 
 ### I'm Eduardo, a developer passionate about the power that technology has in improving people's lives..
 
-- 🧑🏻‍💻  &nbsp; I’m currently working at [Compasso UOL](https://compassouol.com/).
+- 🧑🏻‍💻  &nbsp; I’m currently working at [Compass UOL](https://compassouol.com/).
 - 🚀  &nbsp; Currently learning: Flutter & Dart | Node.js, JavaScript & TypeScript
 - 📫  &nbsp; How to reach me: [Linkedin](https://linkedin.com/in/edusantsales)
 - ⚡ &nbsp; Fun fact: I decided to be a developer because i wanted to make a game 👾
