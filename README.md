@@ -2,10 +2,49 @@
 
 ### I'm Eduardo, a developer passionate about the power that technology has in improving people's lives..
 
-- 🧑🏻‍💻  &nbsp; I’m currently working at [Compass UOL](https://compassouol.com/).
-- 🚀  &nbsp; Currently learning: Flutter & Dart | HTML, CSS & JavaScript | Node.js & TypeScript
-- 📫  &nbsp; How to reach me: [Linkedin](https://linkedin.com/in/edusantsales)
-- ⚡ &nbsp; Fun fact: I decided to be a developer because i wanted to make a game 👾
+#
+
+### 👔 &nbsp; I’m currently working at [Compass UOL](https://compassouol.com/)
+
+### 🤝 &nbsp; How to reach me: [Linkedin](https://linkedin.com/in/edusantsales)
+
+### 💻 &nbsp; My Hard Skills
+
+<p align="left">
+  <!-- HTML5 -->
+  <img src="https://img.shields.io/badge/-HTML5-e34f26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <!-- CSS3 -->
+  <img src="https://img.shields.io/badge/-CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <!-- Dart -->
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+  <!-- Flutter -->
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <!-- Firebase -->
+  <img src="https://img.shields.io/badge/Firebase-20232A?style=for-the-badge&logo=firebase&logoColor=ffcb2c"/>
+  <!-- JSON -->
+  <img src="https://img.shields.io/badge/json-9a9a9a?style=for-the-badge&logo=json&logoColor=2f2f2f"/>
+  <!-- Git -->
+  <img src="https://img.shields.io/badge/Git-grey?style=for-the-badge&logo=git&logoColor=e34f26"/>
+  <!-- GitHub -->
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
+
+### 🚀 &nbsp; Currently Learning
+
+<p align="left">
+  <!-- Javascript -->
+  <img src="https://img.shields.io/badge/-Javascript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <!-- TypeScript -->
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <!-- Node -->
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <!-- Express -->
+  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"/>
+  <!-- Postgre SQL -->
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+</p>
+
+### 📊 &nbsp; GitHub Stats
 
 <p align="left">
 <!-- Status perfil -->
