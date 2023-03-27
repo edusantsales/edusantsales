@@ -7,8 +7,13 @@
 - 📫  &nbsp; How to reach me: [Linkedin](https://linkedin.com/in/edusantsales)
 - ⚡ &nbsp; Fun fact: I decided to be a developer because i wanted to make a game 👾
 
-<!-- [![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&layout=compact&theme=dark)](https://github.com/edusantsales/github-readme-stats)
-[![edusantsales github stats](https://github-readme-stats.vercel.app/api?username=edusantsales&show_icons=true&hide_title=true&theme=dark)](https://github.com/edusantsales/github-readme-stats) -->
+<p align="left">
+<!-- Status perfil -->
+  <img src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green"/>
+&nbsp; &nbsp; &nbsp;
+<!-- Linguagens mais usadas -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&theme=blue-green"/>
+</p>
 
 #
 
