@@ -8,7 +8,7 @@
 
 <p align="center">
   <!-- Status perfil -->
-  <img src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green"/> &nbsp;
   
   <!-- Linguagens mais usadas -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&theme=blue-green"/>
