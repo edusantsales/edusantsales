@@ -50,6 +50,6 @@
 <br/>
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green" style="height: 24vh;"/> &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&theme=blue-green" style="height: 24vh;"/> &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green" style="height: 20vh;"/> &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&theme=blue-green" style="height: 20vh;"/> &nbsp;
 </p>
