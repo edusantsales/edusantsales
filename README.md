@@ -55,28 +55,16 @@
 ### :white_check_mark: &nbsp; Follow me
 
 <p align="left">
-<!-- Instagram -->
-<a href="https://www.instagram.com/edusantsales/" alt="Instagram">
-  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/victor.maitan/"/>
-</a>
-&nbsp;
-<!-- Linkedin -->
-<a href="https://www.linkedin.com/in/edusantsales/" alt="Linkedin">
-  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/victormaitan/" />
-</a>
-
-
-<p align="left">
-  <a href="https://www.instagram.com/edusantsales/">
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/edusantsales/" target=_blank>
     <img alt="Instagram" src="assets/social/instagram.svg" width="32" height="32">
   </a>
+  
   &nbsp;
-  <a href="https://www.linkedin.com/in/edusantsales/">
+
+  <!-- Linkedin -->
+  <a href="https://www.linkedin.com/in/edusantsales/" target=_blank>
     <img alt="Linkedin" src="assets/social/linkedin.svg" width="32" height="32">
-  </a>
-  &nbsp;
-  <a href="https://github.com/edusantsales">
-    <img alt="Github" src="assets/social/github.svg" width="32" height="32">
   </a>
 </p>
 
