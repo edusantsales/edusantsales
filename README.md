@@ -1,4 +1,4 @@
-<p align="left">
+<p align="center">
   <!-- Sobre Mim -->
   <img src="https://raw.githubusercontent.com/edusantsales/edusantsales/main/assets/sobre-mim.png"/>
   
@@ -6,7 +6,7 @@
   <img src="https://raw.githubusercontent.com/edusantsales/edusantsales/main/assets/tecnologias.png"/>
 </p>
 
-<p aling="left">
+<p aling="center">
   <!-- Status perfil -->
   <img src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green"/> 
   &nbsp; &nbsp; &nbsp;
