@@ -4,13 +4,12 @@
   
   <!-- Tecnologias -->
   <img src="https://raw.githubusercontent.com/edusantsales/edusantsales/main/assets/tecnologias.png"/>
-</p>
 
-<p aling="center">
+<div align="center">
   <!-- Status perfil -->
-  <img src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green"/> 
-  &nbsp; &nbsp; &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green"/>
   
   <!-- Linguagens mais usadas -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&theme=blue-green"/>
+</div>
 </p>
