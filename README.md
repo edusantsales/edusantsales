@@ -46,6 +46,7 @@
 <!-- Status perfil -->
   <img src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green"/>
 &nbsp; &nbsp; &nbsp;
+    
 <!-- Linguagens mais usadas -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&theme=blue-green"/>
 </p>
@@ -56,12 +57,12 @@
 
 <p align="left">
   <!-- Instagram -->
-  <a href="https://www.instagram.com/edusantsales/" target=_blank>
+  <a href="https://www.instagram.com/edusantsales/" target="_blank">
     <img alt="Instagram" src="assets/social/instagram.svg" width="32" height="32">
   </a>
   &nbsp;
   <!-- Linkedin -->
-  <a href="https://www.linkedin.com/in/edusantsales/" target=_blank>
+  <a href="https://www.linkedin.com/in/edusantsales/" target="_blank">
     <img alt="Linkedin" src="assets/social/linkedin.svg" width="32" height="32">
   </a>
 </p>
