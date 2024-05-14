@@ -49,7 +49,16 @@
 
 <br/>
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green" style="height: 20vh;"/> &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&theme=blue-green" style="height: 20vh;"/> &nbsp;
-</p>
+<div>
+  <a href="https://github.com/edusantsales">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&theme=blue-green"/>
+  <img align='right' width="300" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif">
+</div>
+
+<div>
+  <a href="https://github.com/edusantsales">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=edusantsales&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&layout=compact&langs_count=7&theme=dracula"/>
+  <img align='right' width="300" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" >
+</div>
