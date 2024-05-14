@@ -22,43 +22,39 @@
 
 <h4>Tenho experiência</h4>
 
-<p align="left">
+<p>
   <img src="https://xesque.rocketseat.dev/platform/tech/dart.svg"/> &nbsp;
   <img src="https://xesque.rocketseat.dev/platform/tech/flutter.svg"/> &nbsp;
   <img src="https://xesque.rocketseat.dev/platform/tech/html5.svg"/> &nbsp;
   <img src="https://xesque.rocketseat.dev/platform/tech/css3.svg"/> &nbsp;
 </p>
-
+  
 <h4>Estou estudando</h4>
 
-<p align="left">
+<p>
   <img src="https://xesque.rocketseat.dev/platform/tech/javascript.svg"/> &nbsp;
   <img src="https://xesque.rocketseat.dev/platform/tech/typescript.svg"/> &nbsp;
   <img src="https://xesque.rocketseat.dev/platform/tech/node.svg"/> &nbsp;
 </p>
-
+  
 <h4>Tenho interesse</h4>
 
-<p align="left">
+<p>
   <img src="https://xesque.rocketseat.dev/platform/tech/swift.svg"/> &nbsp;
 </p>
 
 <br/>
 
+<!--
+
 <h1>Dados do perfil</h1>
 
 <br/>
 
-<div>
+<div align="center">
   <a href="https://github.com/edusantsales">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=edusantsales&theme=blue-green"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&theme=blue-green"/>
-  <img align='right' width="300" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif">
+  <img height="173rem" src="https://github-readme-stats.vercel.app/api?username=edusantsales&show_icons=true&include_all_commits=false&count_private=true&theme=dracula"/> &nbsp;
+  <img height="173rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
-<div>
-  <a href="https://github.com/edusantsales">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=edusantsales&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&layout=compact&langs_count=7&theme=dracula"/>
-  <img align='right' width="300" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" >
-</div>
+-->
