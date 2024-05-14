@@ -7,7 +7,7 @@
   
   😍 Desenvolvedor apaixonado pelo poder que a tecnologia tem em melhorar a vida das pessoas.
   
-  👨🏻‍💻 Trabalho com desenvolvimento de sistemas a mais de 5 anos. Comecei no front-end usando as tecnologias HTML, CSS e JavaScript. Logo depois fui para o back-end usando as tecnologias Java, JSF / Primefaces, JPA / Hibernate, PostgreSQL e SpringBoot.
+  👨🏻‍💻 Trabalho com desenvolvimento de software a mais de 5 anos. Comecei no front-end usando as tecnologias HTML, CSS e JavaScript. Logo depois fui para o back-end usando as tecnologias Java, JSF / Primefaces, JPA / Hibernate, PostgreSQL e SpringBoot.
   
   🎯 Atualmente trabalho como desenvolvedor mobile Dart e Flutter, pois são as tecnologias que entregam mais resultados para mim, estão alinhadas com meus objetivos pessoais e estou focado em domina-las através dos meus estudos. Como próximo objetivo quero aprender Swift e SwiftUI para ampliar minha área de atuação como desenvolvedor mobile.
   
