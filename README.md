@@ -1,22 +1,27 @@
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="360px" max-width="360px" width="360px" align="left">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="50%" max-width="50%" width="50%" align="center">
+</div>
 
 ```dart
 import Desenvolvedor from "edusantsales";
-
+  
 class SobreMim extends Desenvolvedor {
-  String nome = "Eduardo Sant'Ana Sales";
-  String area = "Desenvolvedor Mobile";
-  String trabalho = "Compass UOL";
-  String local = "Anápolis - GO";
-  List<Skills> experiencia = [Skills.devops, Skills.mobile, Skills.web];
-  List<String> aprendendo = ["TypeScript", "Node.js"];
-  List<String> interesse = ["SwiftUI", "Swift"];
+   String nome = "Eduardo Sant'Ana Sales";
+   String formacao = "Análise e Desenvolvimento de Sistemas";
+   String trabalhando = "Compass UOL";
+   String cargo = "Desenvolvedor Mobile";
+   String local = "Anápolis - GO";
+   List<Skills> experiencia = [Skills.backend, Skills.frontend, Skills.mobile, Skills.devops, Skills.tools];
+   List<String> aprendendo = ["TypeScript", "Node.js"];
+   List<String> interesse = ["SwiftUI", "Swift"];
 }
-
+  
 class Skills extends Desenvolvedor {
-  static final devops = ["Git", "GitHub"];
-  static final mobile = ["Flutter", "Dart", "Firebase"];
-  static final web = ["HTML5", "CSS3", "JavaScript"];
+   static final backend = ["Firebase"];
+   static final frontend = ["Flutter", "Dart", "HTML5", "CSS3", "JavaScript"];
+   static final mobile = ["Flutter", "Dart"];
+   static final devops = ["GitHub", "Git"];
+   static final tools = ["Figma", "Visual Studio Code"];
 }
 ```
 
@@ -36,37 +41,6 @@ class Skills extends Desenvolvedor {
 
 🤝 Tudo isso aliado sempre ao trabalho em equipe e organização, cooperando com todos e ajudando da melhor maneira possível, com grande satisfação em aprender.
 
-## Tecnologias
-
-**Tenho experiência:**
-
-![Flutter](https://img.shields.io/badge/-Flutter-333333?style=flat&logo=Flutter&logoColor=027DFD)
-![Dart](https://img.shields.io/badge/-Dart-333333?style=flat&logo=Dart&logoColor=0553B1)
-![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
-![Bitbucket](https://img.shields.io/badge/-Bitbucket-333333?style=flat&logo=bitbucket&logoColor=007ACC)
-![Insomnia](https://img.shields.io/badge/-Insomnia-333333?style=flat&logo=insomnia&logoColor=7e63fb)
-![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
-![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
-![Trello](https://img.shields.io/badge/-Trello-333333?style=flat&logo=trello&logoColor=007ACC)
-![Jira](https://img.shields.io/badge/-Jira-333333?style=flat&logo=jira&logoColor=007ACC)
-![Confluence](https://img.shields.io/badge/-Confluence-333333?style=flat&logo=confluence&logoColor=007ACC)
- 
-**Estou estudando:**
-
-![Flutter](https://img.shields.io/badge/-Flutter-333333?style=flat&logo=Flutter&logoColor=027DFD)
-![Dart](https://img.shields.io/badge/-Dart-333333?style=flat&logo=Dart&logoColor=0553B1)
-  
-**Tenho interesse:**
-
-![Flutter](https://img.shields.io/badge/-Flutter-333333?style=flat&logo=Flutter&logoColor=027DFD)
-![Dart](https://img.shields.io/badge/-Dart-333333?style=flat&logo=Dart&logoColor=0553B1)
-
-<!--
 <br/>
 
 <div align="left">
@@ -74,6 +48,5 @@ class Skills extends Desenvolvedor {
   <img height="173rem" src="https://github-readme-stats.vercel.app/api?username=edusantsales&show_icons=true&include_all_commits=false&count_private=true&theme=dracula"/>
   <img height="173rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&layout=compact&langs_count=7&theme=dracula"/>
 </div>
--->
 
-
+[![GitHub](https://img.shields.io/github/followers/iuricode?label=seguir&style=social)](https://github.com/edusantsales)
