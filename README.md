@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="50%" max-width="50%" width="50%" align="center">
+  <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" width="500rem" align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&layout=compact&langs_count=7&theme=dracula" height="173rem" align="center"/>
 </div>
 
 ```dart
@@ -24,7 +25,15 @@ class Skills extends Desenvolvedor {
    static final tools = ["Figma", "Visual Studio Code"];
 }
 ```
+<!--
+<br/>
 
+<div align="center">
+  
+  ![github-stats](https://github-readme-stats.vercel.app/api?username=edusantsales&show_icons=true&include_all_commits=false&count_private=true&theme=dracula)
+  
+</div>
+-->
 ## Sobre mim
 
 🚀 Mais de 4 anos de experiência trabalhando com Flutter & Dart
@@ -41,12 +50,6 @@ class Skills extends Desenvolvedor {
 
 🤝 Tudo isso aliado sempre ao trabalho em equipe e organização, cooperando com todos e ajudando da melhor maneira possível, com grande satisfação em aprender.
 
-<br/>
+## Siga-me
 
-<div align="left">
-  <a href="https://github.com/edusantsales">
-  <img height="173rem" src="https://github-readme-stats.vercel.app/api?username=edusantsales&show_icons=true&include_all_commits=false&count_private=true&theme=dracula"/>
-  <img height="173rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edusantsales&layout=compact&langs_count=7&theme=dracula"/>
-</div>
-
-[![GitHub](https://img.shields.io/github/followers/iuricode?label=seguir&style=social)](https://github.com/edusantsales)
+[![github](https://img.shields.io/badge/github-171515?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/edusantsales)  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edusantsales/)  [![instagram](https://img.shields.io/badge/instagram-CD486B?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/edusantsales)
