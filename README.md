@@ -10,7 +10,7 @@ class SobreMim extends Desenvolvedor {
    String nome = "Eduardo Sant'Ana Sales";
    String formacao = "Análise e Desenvolvimento de Sistemas";
    String trabalhando = "Compass UOL";
-   String cargo = "Desenvolvedor Mobile";
+   String cargo = "Flutter Developer";
    String local = "Anápolis - GO";
    List<Skills> experiencia = [Skills.backend, Skills.frontend, Skills.mobile, Skills.devops, Skills.tools];
    List<String> aprendendo = ["UIKit", "SwiftUI", "Swift"];
@@ -36,20 +36,20 @@ class Skills extends Desenvolvedor {
 -->
 ## Sobre mim
 
-🚀 Mais de 4 anos de experiência trabalhando com Flutter & Dart
+🚀 Desenvolvedor Mobile com mais de 4 anos de experiência em Flutter e Dart, entregando soluções robustas, escaláveis e alinhadas às necessidades reais dos usuários.
 
-👨🏻‍🎓 Sou graduado em Análise e Desenvolvimento de Sistemas pela Faculdade SENAI Fatesg.
+🎓 Graduado em Análise e Desenvolvimento de Sistemas pela Faculdade SENAI Fatesg, tenho mais de 6 anos de trajetória no desenvolvimento de software, com foco nos últimos anos em mobile.
 
-😍 Desenvolvedor apaixonado pelo poder que a tecnologia tem em melhorar a vida das pessoas.
+💡 Sou movido pela paixão em transformar necessidades em aplicações reais, com atenção à performance, usabilidade, qualidade de código, resolver problemas de forma prática, desenvolver com propósito e entregar produtos que façam sentido.
 
-👨🏻‍💻 Trabalho com desenvolvimento de software a mais de 6 anos. Comecei no front-end usando as tecnologias HTML, CSS e JavaScript. Logo depois fui para o back-end usando as tecnologias Java, JSF / Primefaces, JPA / Hibernate, PostgreSQL e SpringBoot.
+📱 Atualmente, minha atuação está 100% voltada ao desenvolvimento mobile. Flutter e Dart são minha stack principal e as escolhi por sua produtividade, versatilidade e aderência aos meus objetivos profissionais. 
 
-🎯 Atualmente trabalho como desenvolvedor mobile Dart e Flutter, pois são as tecnologias que entregam mais resultados para mim, estão alinhadas com meus objetivos pessoais e estou focado em domina-las através dos meus estudos. Como próximo objetivo quero aprender Swift, UIKit e SwiftUI para ampliar minha área de atuação como desenvolvedor mobile.
+🎯 Estou continuamente me aperfeiçoando e aprofundando meus conhecimentos em Flutter e ampliando horizontes com Swift, UIKit e SwiftUI para projetos nativos iOS e expandir meu alcance como desenvolvedor mobile.
 
-📚 Busco sempre novos conhecimentos para me aperfeiçoar constantemente, poder me posicionar melhor no mercado e apoiar as empresas na busca por resultados, através da criação de softwares sólidos e coerentes as necessidades do cliente.
+📚 Tenho como princípio o aprendizado constante e a busca por excelência, com o objetivo de gerar valor para as empresas através de soluções bem projetadas, intuitivas e alinhadas às necessidades do negócio.
 
-🤝 Tudo isso aliado sempre ao trabalho em equipe e organização, cooperando com todos e ajudando da melhor maneira possível, com grande satisfação em aprender.
+🤝 Valorizo o trabalho em equipe, a comunicação clara e a colaboração. Estou sempre pronto para ajudar, aprender e crescer junto com o time.
 
 ## Siga-me
 
-[![github](https://img.shields.io/badge/github-37393A?style=for-the-badge)](https://www.github.com/edusantsales)  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/edusantsales/)  [![instagram](https://img.shields.io/badge/instagram-CD486B?style=for-the-badge)](https://www.instagram.com/edusantsales)
+[![instagram](https://img.shields.io/badge/instagram-CD486B?style=for-the-badge)](https://www.instagram.com/edusantsales)  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/edusantsales/)  [![github](https://img.shields.io/badge/github-37393A?style=for-the-badge)](https://www.github.com/edusantsales)
