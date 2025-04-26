@@ -40,7 +40,7 @@ class Skills extends Desenvolvedor {
 
 🎓 Graduado em Análise e Desenvolvimento de Sistemas pela Faculdade SENAI Fatesg, tenho mais de 6 anos de trajetória no desenvolvimento de software, com foco nos últimos anos em mobile.
 
-💡 Sou movido pela paixão em transformar necessidades em aplicações reais, com atenção à performance, usabilidade, qualidade de código, resolver problemas de forma prática, desenvolver com propósito e entregar produtos que façam sentido.
+💡 Sou movido pela paixão em transformar necessidades em aplicações reais, com atenção à performance, usabilidade, qualidade de código, resolução de problemas, desenvolver com propósito e entregar produtos que façam sentido, sempre com uma visão prática, criativa e estratégica.
 
 📱 Atualmente, minha atuação está 100% voltada ao desenvolvimento mobile. Flutter e Dart são minha stack principal e as escolhi por sua produtividade, versatilidade e aderência aos meus objetivos profissionais. 
 
