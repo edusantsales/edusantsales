@@ -36,7 +36,7 @@ class Skills extends Desenvolvedor {
 -->
 ## Sobre mim
 
-🚀 Desenvolvedor Mobile com mais de 4 anos de experiência em Flutter e Dart, entregando soluções robustas, escaláveis e alinhadas às necessidades reais dos usuários.
+🚀 Desenvolvedor Mobile com mais de 6 anos de experiência em Flutter e Dart, entregando soluções robustas, escaláveis e alinhadas às necessidades reais dos usuários.
 
 🎓 Graduado em Análise e Desenvolvimento de Sistemas pela Faculdade SENAI Fatesg, tenho mais de 6 anos de trajetória no desenvolvimento de software, com foco nos últimos anos em mobile.
 
@@ -44,7 +44,7 @@ class Skills extends Desenvolvedor {
 
 📱 Atualmente, minha atuação está 100% voltada ao desenvolvimento mobile. Flutter e Dart são minha stack principal e as escolhi por sua produtividade, versatilidade e aderência aos meus objetivos profissionais. 
 
-🎯 Estou continuamente me aperfeiçoando e aprofundando meus conhecimentos em Flutter e ampliando horizontes com Swift, UIKit e SwiftUI para projetos nativos iOS e expandir meu alcance como desenvolvedor mobile.
+🎯 Estou continuamente me aperfeiçoando e aprofundando meus conhecimentos em Flutter, ampliando horizontes com Swift, UIKit e SwiftUI para projetos nativos iOS e expandir meu alcance como desenvolvedor mobile.
 
 📚 Tenho como princípio o aprendizado constante e a busca por excelência, com o objetivo de gerar valor para as empresas através de soluções bem projetadas, intuitivas e alinhadas às necessidades do negócio.
 
