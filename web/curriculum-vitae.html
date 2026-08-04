@@ -85,16 +85,6 @@
             @page {
                 padding: 15mm !important;
             }
-
-            /* Evita corte indesejado de blocos importantes no meio da página */
-            .cv-block {
-                page-break-inside: avoid;
-            }
-
-            /* A Experiência Profissional pode quebrar entre cargos, mas cada cargo fica junto */
-            .cv-experience article {
-                page-break-inside: avoid;
-            }
         }
     </style>
 </head>
@@ -127,7 +117,7 @@
                 <!-- Cabeçalho Clássico -->
                 <section class="text-center pb-4 mb-4 border-slate-200">
                     <h2 class="text-3xl font-extrabold tracking-tight">Eduardo Sant'Ana Sales </h2>
-                    <p class="text-md text-[--text-primary-color] mt-2 font-medium tracking-tight">
+                    <p class="text-md text-[--text-primary-color] mt-2 font-semibold tracking-tight">
                         Engenheiro de Software Mobile Sênior / Desenvolvedor Flutter Sênior
                     </p>
                     <!-- Contatos em formato compacto -->
@@ -152,7 +142,7 @@
                 </section>
 
                 <!-- Objetivo -->
-                <section class="mb-6 cv-block">
+                <!-- <section class="mb-6">
                     <article>
                         <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
                             <span>Objetivo</span>
@@ -166,10 +156,10 @@
                             com foco em performance, qualidade de código, escalabilidade e experiência do usuário.
                         </p>
                     </article>
-                </section>
+                </section> -->
 
                 <!-- Resumo Profissional -->
-                <section class="mb-6 cv-block">
+                <section class="mb-6">
                     <article>
                         <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
                             <span>Resumo Profissional</span>
@@ -187,8 +177,28 @@
                     </article>
                 </section>
 
+                <!-- Resumo Competências -->
+                <section class="mb-6">
+                    <article>
+                        <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
+                            <span>Resumo Competências</span>
+                            <span class="flex-1 h-[1px] bg-slate-200"></span>
+                        </h3>
+                        <p class="text-[12px] text-justify">
+                            <b>MOBILE:</b> Flutter, Dart, Swift, SwiftUI, UIKit. <b>ARQUITETURA & ENGENHARIA:</b> Clean
+                            Code, Clean Architecture, Layered Architecture, Monorepo Modular, Super Apps, White Label
+                            Apps, Architecture Patterns, Design Patterns, SDLC, SOLID, SSOT, DRY, KISS, YAGNI, REST
+                            APIs, Test-Driven Development(TDD), Testes Unitários, Testes de UI, Testes de Integração.
+                            <b>AI & ENGENHARIA:</b> Agentes de IA, Skills de IA, Context Engineering, Prompt
+                            Engineering, Harness Engineering, Integração de LLMs. <b>BACKEND & CLOUD SERVICES:</b>
+                            Firebase (Authentication, Analytics, App Distribution, Crashlytics, Firestore, Realtime
+                            Database, Storage, Hosting, Remote Config, Messaging).
+                        </p>
+                    </article>
+                </section>
+
                 <!-- Experiência Profissional -->
-                <section class="mb-6 cv-experience">
+                <section class="mb-6">
                     <article class="mb-2">
                         <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
                             <span>Experiência Profissional</span>
@@ -199,11 +209,11 @@
                                 Senior Mobile Software Engineer Flutter
                             </h4>
                             <p class="text-[12px] text-[--text-primary-color] font-bold whitespace-nowrap">
-                                Junho de 2025 – Junho de 2026
+                                Junho de 2025 - Junho de 2026
                             </p>
                         </div>
                         <p class="text-[12px] font-semibold text-[--text-secondary-color] mb-2">
-                            AI/R Company – Invillia
+                            AI/R Company - Invillia
                         </p>
                         <p class="text-[12px] text-justify">
                             <b>Projeto Certisign (Super App):</b> Atuei como Senior Mobile Software Engineer Flutter
@@ -235,11 +245,11 @@
                                 Mobile Software Engineer Flutter
                             </h4>
                             <p class="text-[12px] text-[--text-primary-color] font-bold">
-                                Outubro de 2024 – Junho de 2025
+                                Outubro de 2024 - Junho de 2025
                             </p>
                         </div>
                         <p class="text-[12px] font-semibold mb-2">
-                            AI/R Company – Compass UOL
+                            AI/R Company - Compass UOL
                         </p>
                         <p class="text-[12px] text-justify">
                             <b>Projeto App FGC 2.0:</b> Atuei no desenvolvimento ponta a ponta (concepção ao
@@ -264,11 +274,11 @@
                                 Mobile Software Engineer Flutter
                             </h4>
                             <p class="text-[12px] text-[--text-primary-color] font-bold">
-                                Março de 2022 – Outubro de 2024
+                                Março de 2022 - Outubro de 2024
                             </p>
                         </div>
                         <p class="text-[12px] font-semibold mb-2">
-                            AI/R Company – Compass UOL
+                            AI/R Company - Compass UOL
                         </p>
                         <p class="text-[12px] text-justify">
                             <b>Projeto HUB do Lojista:</b> Atuei desde o início do projeto, colaborando diretamente na
@@ -298,17 +308,17 @@
                                 Mobile Software Engineer Flutter
                             </h4>
                             <p class="text-[12px] text-[--text-primary-color] font-bold">
-                                Outubro de 2021 – Fevereiro de 2022
+                                Outubro de 2021 - Fevereiro de 2022
                             </p>
                         </div>
                         <p class="text-[12px] font-semibold mb-2">
-                            AI/R Company – Compass UOL
+                            AI/R Company - Compass UOL
                         </p>
                         <p class="text-[12px] text-justify">
                             <b>Projeto Rebuild App Cliente (White-Label):</b> Atuei na reconstrução técnica e lançamento
                             da versão 2.0 do aplicativo B2C (MVP Shopping Nova América) e posterior rollout em modelo
                             White-Label para o Botafogo Praia Shopping e demais portfólio de shoppings do grupo. <br />
-                            <b></b>Arquitetura & Engenharia de Software: Desenvolvimento de uma base de código unificada
+                            <b>Arquitetura & Engenharia de Software:</b> Desenvolvimento de uma base de código unificada
                             com suporte a temas e identidades visuais personalizadas dinamicamente por shopping;
                             Concepção e desenvolvimento de uma solução própria e leve para gerenciamento de estado da
                             aplicação; Firebase App Distribution para centralizar e agilizar a distribuição de versões
@@ -328,7 +338,7 @@
                 </section>
 
                 <!-- Formação Acadêmica -->
-                <section class="mb-6 cv-block">
+                <section class="mb-6">
                     <article class="mb-2">
                         <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
                             <span>Formação Acadêmica</span>
@@ -339,7 +349,7 @@
                                 Graduação em Análise e Desenvolvimento de Sistemas
                             </h4>
                             <p class="text-[12px] text-[--text-primary-color] font-bold">
-                                Fevereiro de 2014 – Junho de 2017
+                                Fevereiro de 2014 - Junho de 2017
                             </p>
                         </div>
                         <p class="text-[12px] font-semibold">
@@ -349,26 +359,21 @@
                 </section>
 
                 <!-- Cursos & Qualificações -->
-                <section class="mb-6 cv-block">
+                <section class="mb-6">
                     <article>
                         <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
                             <span>Cursos & Qualificações</span>
                             <span class="flex-1 h-[1px] bg-slate-200"></span>
                         </h3>
-                        <ol class="text-[12px] text-justify list-decimal list-inside">
-                            <li>Clean Code.</li>
-                            <li>GitHub Copilot.</li>
-                            <li>Conceitos básicos do GitHub Copilot parte 2 de 2.</li>
-                            <li>Conceitos básicos do GitHub Copilot parte 1 de 2.</li>
-                            <li>Acelerar o desenvolvimento de aplicativos usando o GitHub Copilot.</li>
-                            <li>Analista de Desenvolvimento de Sistemas.</li>
-                            <li>Programador de Sistemas de Informação.</li>
-                        </ol>
+                        <p class="text-[12px] text-justify">
+                            Clean Code | GitHub Copilot (Conceitos básicos & Acelerar o desenvolvimento de aplicativos)
+                            | Analista de Desenvolvimento de Sistemas | Programador de Sistemas de Informação.
+                        </p>
                     </article>
                 </section>
 
                 <!-- Idiomas -->
-                <!-- <section class="mb-6 cv-block">
+                <!-- <section class="mb-6">
                     <article>
                         <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
                             <span>Idiomas</span>
@@ -382,7 +387,7 @@
                 </section> -->
 
                 <!-- Informações Adicionais -->
-                <section class="mb-6 cv-block">
+                <section class="mb-6">
                     <article>
                         <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
                             <span>Informações Adicionais</span>
