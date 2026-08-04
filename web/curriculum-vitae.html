@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo – Eduardo Sant'Ana Sales</title>
+
+    <!-- Google Fonts: Inter para alta legibilidade -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+
+    <!-- FontAwesome para ícones profissionais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script rel="preconnect" src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom styles for A4 page and print optimization -->
+    <style>
+        :root {
+            --bg-primary-color: white;
+            --text-primary-color: coral;
+            --text-secondary-color: darkslategrey;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary-color);
+            color: var(--text-secondary-color);
+        }
+
+        /* Simulação de Folha A4 para visualização em tela */
+        .a4-page {
+            width: 100%;
+            max-width: 210mm;
+            min-height: 297mm;
+            padding: 15mm;
+            margin: 0 auto;
+            background: var(--bg-primary-color);
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        /* Otimizações finas para Impressão em PDF */
+        @media print {
+            :root {
+                --text-primary-color: var(--text-secondary-color);
+            }
+
+            body {
+                background: var(--bg-primary-color) !important;
+                color: var(--text-secondary-color) !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+
+            .no-print {
+                display: none !important;
+            }
+
+            .print-area {
+                width: 100% !important;
+                max-width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                box-shadow: none !important;
+                background: var(--bg-primary-color) !important;
+                color: var(--text-secondary-color) !important;
+                overflow: visible !important;
+            }
+
+            .a4-page {
+                width: 210mm;
+                min-height: 297mm;
+                padding: 0 !important;
+                margin: 0 !important;
+                box-shadow: none !important;
+                page-break-after: always;
+            }
+
+            /* Margem de 15mm aplicada automaticamente em todas as páginas */
+            @page {
+                padding: 15mm !important;
+            }
+
+            /* Evita corte indesejado de blocos importantes no meio da página */
+            .cv-block {
+                page-break-inside: avoid;
+            }
+
+            /* A Experiência Profissional pode quebrar entre cargos, mas cada cargo fica junto */
+            .cv-experience article {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col overflow-x-hidden">
+
+    <!-- Header Principal (Ocultado na Impressão) -->
+    <header class="bg-slate-900 px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4 no-print z-8">
+        <p class="bg-slate-900 flex-1 text-center text-md text-[--bg-primary-color]">
+            Dica: Após finalizar a edição, clique em
+            <strong class="text-[--text-primary-color]">"Imprimir ou Salvar PDF"</strong>
+            e configure a impressora de destino para
+            <strong class="text-[--text-primary-color]">"Salvar como PDF"</strong>.
+        </p>
+        <div class="flex items-center flex-wrap gap-4">
+            <!-- Botão de Download / Impressão -->
+            <button onclick="window.print()"
+                class="bg-orange-500 hover:bg-orange-600 text-white font-medium px-4 py-2 rounded-lg transition-all duration-300 flex items-center gap-2">
+                <i class="fa-solid fa-print"></i>
+                Imprimir ou Salvar PDF
+            </button>
+        </div>
+    </header>
+
+    <!-- Container Principal (Área do Currículo – A4) -->
+    <main class="flex flex-col lg:flex-row">
+        <div class="bg-slate-700 flex-1 overflow-y-auto p-6 lg:p-12 justify-center print-area">
+            <div class="a4-page print-area transition-all duration-300">
+
+                <!-- Cabeçalho Clássico -->
+                <section class="text-center pb-4 mb-4 border-slate-200">
+                    <h2 class="text-3xl font-extrabold tracking-tight">Eduardo Sant'Ana Sales </h2>
+                    <p class="text-md text-[--text-primary-color] mt-2 font-medium tracking-tight">
+                        Engenheiro de Software Mobile Sênior / Desenvolvedor Flutter Sênior
+                    </p>
+                    <!-- Contatos em formato compacto -->
+                    <div class="flex flex-wrap justify-center gap-x-4 mt-4 text-[12px]">
+                        <span>
+                            <i class="fa-brands fa-whatsapp mr-1 text-[--text-primary-color] font-extrabold"></i>
+                            (62) 9 8249-1210
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-envelope mr-1 text-[--text-primary-color]"></i>
+                            edusantsales@gmail.com
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-location-dot mr-1 text-[--text-primary-color]"></i>
+                            Anápolis, Goiás, Brasil
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-linkedin mr-1 text-[--text-primary-color]"></i>
+                            linkedin.com/in/edusantsales
+                        </span>
+                    </div>
+                </section>
+
+                <!-- Objetivo -->
+                <section class="mb-6 cv-block">
+                    <article>
+                        <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
+                            <span>Objetivo</span>
+                            <span class="flex-1 h-[1px] bg-slate-200"></span>
+                        </h3>
+                        <p class="text-[12px] text-justify">
+                            Atuar como Engenheiro de Software Mobile Sênior / Desenvolvedor Flutter Sênior, aplicando
+                            boas práticas de engenharia, arquitetura, testes, conhecimento em desenvolvimento nativo
+                            (Kotlin/Swift) e integração de ecossistemas backend modernos no desenvolvimento de
+                            aplicações mobile. Comprometido com a liderança técnica, code review e entrega de software
+                            com foco em performance, qualidade de código, escalabilidade e experiência do usuário.
+                        </p>
+                    </article>
+                </section>
+
+                <!-- Resumo Profissional -->
+                <section class="mb-6 cv-block">
+                    <article>
+                        <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
+                            <span>Resumo Profissional</span>
+                            <span class="flex-1 h-[1px] bg-slate-200"></span>
+                        </h3>
+                        <p class="text-[12px] text-justify">
+                            Engenheiro de Software Mobile Sênior com mais de 6 anos de experiência no planejamento,
+                            construção e arquitetura de aplicações móveis de alta performance, focado em qualidade de
+                            código, escalabilidade e experiência do usuário (UX). Especialista no ecossistema Flutter,
+                            Dart e Firebase, com atuação em Engenharia de IA (desenvolvimento e integração de LLMs,
+                            Agentes, Skills e Harness Engineering aplicados ao ambiente mobile). Ampla bagagem em todo o
+                            ciclo de vida do desenvolvimento de software (SDLC), liderando decisões de arquitetura em
+                            super apps, soluções financeiras e produtos white-label em times multidisciplinares.
+                        </p>
+                    </article>
+                </section>
+
+                <!-- Experiência Profissional -->
+                <section class="mb-6 cv-experience">
+                    <article class="mb-2">
+                        <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
+                            <span>Experiência Profissional</span>
+                            <span class="flex-1 h-[1px] bg-slate-200"></span>
+                        </h3>
+                        <div class="flex justify-between items-baseline">
+                            <h4 class="text-[12px] font-bold text-[--text-primary-color]">
+                                Senior Mobile Software Engineer Flutter
+                            </h4>
+                            <p class="text-[12px] text-[--text-primary-color] font-bold whitespace-nowrap">
+                                Junho de 2025 – Junho de 2026
+                            </p>
+                        </div>
+                        <p class="text-[12px] font-semibold text-[--text-secondary-color] mb-2">
+                            AI/R Company – Invillia
+                        </p>
+                        <p class="text-[12px] text-justify">
+                            <b>Projeto Certisign (Super App):</b> Atuei como Senior Mobile Software Engineer Flutter
+                            liderando decisões técnicas no desenvolvimento do Certisign Super App, solução para emissão,
+                            gestão, verificação e uso de certificados digitais. Atuação ponta a ponta em todo o ciclo de
+                            vida de desenvolvimento de software (SDLC). <br />
+                            <b>Engenharia AI-First & Aceleração de Desenvolvimento:</b> Adoção de Specification-Driven
+                            Development (SDD) para guiar, otimizar e acelerar o desenvolvimento; Criação de Agentes de
+                            IA, Skills customizadas e arquivos de instruções para definir o contexto de IA e automatizar
+                            fluxos e Criação do Harness do projeto, com foco em automação nas fases de requisitos,
+                            design/projeto, implementação e testes. <br />
+                            <b>Arquitetura & Engenharia de Software:</b> Concepção e implementação da arquitetura de
+                            super app mobile em Flutter utilizando Monorepo Modular baseado em Plugins, com separação de
+                            responsabilidades em camadas/plugins. <br />
+                            <b>Entregas Técnicas & Recursos de Alta Complexidade:</b> Verificação de integridade
+                            (anti-jailbreak/root), storage criptografado e builds ofuscados contra engenharia reversa;
+                            Sistema de re-autenticação transparente (interceptor HTTP 401/403), verificação via OTP,
+                            geração de TOTP, autenticação biométrica nativa e com Liveness Detection (FaceTec
+                            SDK).<br />
+                            <b>Qualidade & Impacto em Produção:</b> Cobertura de testes unitários e de widget elevada
+                            para 90% (superando meta inicial de 70–80%), garantindo estabilidade na evolução do código;
+                            Monitoramento de exceções via Firebase Crashlytics, reduzindo o tempo de resolução de falhas
+                            em produção.
+                        </p>
+                    </article>
+                    <article class="mb-2">
+                        <div class="flex flex-col md:flex-row justify-between items-start">
+                            <h4 class="text-[12px] text-[--text-primary-color] font-bold">
+                                Mobile Software Engineer Flutter
+                            </h4>
+                            <p class="text-[12px] text-[--text-primary-color] font-bold">
+                                Outubro de 2024 – Junho de 2025
+                            </p>
+                        </div>
+                        <p class="text-[12px] font-semibold mb-2">
+                            AI/R Company – Compass UOL
+                        </p>
+                        <p class="text-[12px] text-justify">
+                            <b>Projeto App FGC 2.0:</b> Atuei no desenvolvimento ponta a ponta (concepção ao
+                            lançamento) do aplicativo oficial do FGC v2.0, cobrindo todo o ciclo de vida do software
+                            (SDLC) e integrando serviços financeiros de alta relevância nacional. <br />
+                            <b>Arquitetura & Engenharia de Software:</b> Implementação da arquitetura mobile em Flutter
+                            utilizando Clean Architecture, com adoção de interfaces objetivas, separação de
+                            responsabilidades em camadas, Amazon Cognito para autenticação, autorização e
+                            gerenciamento de usuários de forma segura, Amazon Pinpoint para envio notificações
+                            push de forma confiável e Firebase App Distribution para centralizar e agilizar a
+                            distribuição de versões de testes. <br />
+                            <b>Principais Entregas & Impacto Técnico:</b> Desenvolvimento e integração dos fluxos de
+                            pagamentos via TED e PIX, instituições em liquidação e assinatura digital de termos;
+                            Construção do ecossistema de login/autenticação segura, perfil de usuário e gerenciamento
+                            dinâmico de estados (Home logada/deslogada) e Concepção da solução com arquitetura limpa e
+                            foco em estabilidade operacional.
+                        </p>
+                    </article>
+                    <article class="mb-2">
+                        <div class="flex flex-col md:flex-row justify-between items-start">
+                            <h4 class="text-[12px] text-[--text-primary-color] font-bold">
+                                Mobile Software Engineer Flutter
+                            </h4>
+                            <p class="text-[12px] text-[--text-primary-color] font-bold">
+                                Março de 2022 – Outubro de 2024
+                            </p>
+                        </div>
+                        <p class="text-[12px] font-semibold mb-2">
+                            AI/R Company – Compass UOL
+                        </p>
+                        <p class="text-[12px] text-justify">
+                            <b>Projeto HUB do Lojista:</b> Atuei desde o início do projeto, colaborando diretamente na
+                            definição da arquitetura e garantindo a escalabilidade conforme o crescimento do produto.
+                            <br />
+                            <b>Arquitetura & Engenharia de Software:</b> Colaboração direta no desenho da arquitetura
+                            Flutter; Alinhamento técnico direto com partes interessadas (stakeholders) para evolução e
+                            melhoria contínua do app; Liderança na implementação de redesigns adaptativos baseados no
+                            uso real dos lojistas e na validação contínua de novas features; Firebase App
+                            Distribution para centralizar e agilizar a distribuição de versões de testes; Firebase
+                            Analytics para medir o uso e o comportamento dos usuários no app; Firebase Crashlytics para
+                            ajudar a rastrear, priorizar e corrigir problemas de estabilidade em produção; Firebase
+                            Cloud Firestore para armazenar, sincronizar e consultar alguns dados do app; Firebase
+                            Storage para armazenar imagens e vídeos exibidos no app; Firebase Remote Config para
+                            permitir alterar o comportamento, a aparência, e forçar a atualização para as versões
+                            mínimas do app; Firebase Cloud Messaging para enviar notificações push de forma confiável.
+                            <br />
+                            <b>Principais Entregas & Funcionalidades:</b> Atuação técnica nos lançamentos das versões
+                            1.0 e 2.0; Condução e adaptação nos diversos redesigns baseados em feedbacks dos lojistas;
+                            Sugestões de novas features e melhorias, contribuindo com ideias que foram acolhidas pelo
+                            cliente.
+                        </p>
+                    </article>
+                    <article class="mb-2">
+                        <div class="flex flex-col md:flex-row justify-between items-start">
+                            <h4 class="text-[12px] text-[--text-primary-color] font-bold">
+                                Mobile Software Engineer Flutter
+                            </h4>
+                            <p class="text-[12px] text-[--text-primary-color] font-bold">
+                                Outubro de 2021 – Fevereiro de 2022
+                            </p>
+                        </div>
+                        <p class="text-[12px] font-semibold mb-2">
+                            AI/R Company – Compass UOL
+                        </p>
+                        <p class="text-[12px] text-justify">
+                            <b>Projeto Rebuild App Cliente (White-Label):</b> Atuei na reconstrução técnica e lançamento
+                            da versão 2.0 do aplicativo B2C (MVP Shopping Nova América) e posterior rollout em modelo
+                            White-Label para o Botafogo Praia Shopping e demais portfólio de shoppings do grupo. <br />
+                            <b></b>Arquitetura & Engenharia de Software: Desenvolvimento de uma base de código unificada
+                            com suporte a temas e identidades visuais personalizadas dinamicamente por shopping;
+                            Concepção e desenvolvimento de uma solução própria e leve para gerenciamento de estado da
+                            aplicação; Firebase App Distribution para centralizar e agilizar a distribuição de versões
+                            de testes; Firebase Authentication para autenticação segura de usuários via email e senha ou
+                            logins sociais (Apple e Google); Firebase Analytics para medir o uso e o comportamento dos
+                            usuários no app; Firebase Crashlytics para ajudar a rastrear, priorizar e corrigir problemas
+                            de estabilidade em produção; Firebase Cloud Firestore para armazenar, sincronizar e
+                            consultar alguns dados do app; Firebase Storage para armazenar imagens e vídeos exibidos no
+                            app; Firebase Remote Config para forçar a atualização para as versões mínimas do app;
+                            Firebase Cloud Messaging para enviar notificações push de forma confiável. <br />
+                            <b>Principais Entregas & Funcionalidades:</b> Entrega do MVP no pico de alta demanda (Natal
+                            de 2021); Rollout estratégico para o Botafogo Praia Shopping e os demais shoppings do
+                            grupo; Adaptação de layouts personalizados conforme a identidade visual de cada shopping;
+                            Melhoria contínua da arquitetura do projeto.
+                        </p>
+                    </article>
+                </section>
+
+                <!-- Formação Acadêmica -->
+                <section class="mb-6 cv-block">
+                    <article class="mb-2">
+                        <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
+                            <span>Formação Acadêmica</span>
+                            <span class="flex-1 h-[1px] bg-slate-200"></span>
+                        </h3>
+                        <div class="flex flex-col md:flex-row justify-between items-start">
+                            <h4 class="text-[12px] text-[--text-primary-color] font-bold">
+                                Graduação em Análise e Desenvolvimento de Sistemas
+                            </h4>
+                            <p class="text-[12px] text-[--text-primary-color] font-bold">
+                                Fevereiro de 2014 – Junho de 2017
+                            </p>
+                        </div>
+                        <p class="text-[12px] font-semibold">
+                            Faculdade SENAI Fatesg
+                        </p>
+                    </article>
+                </section>
+
+                <!-- Cursos & Qualificações -->
+                <section class="mb-6 cv-block">
+                    <article>
+                        <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
+                            <span>Cursos & Qualificações</span>
+                            <span class="flex-1 h-[1px] bg-slate-200"></span>
+                        </h3>
+                        <ol class="text-[12px] text-justify list-decimal list-inside">
+                            <li>Clean Code.</li>
+                            <li>GitHub Copilot.</li>
+                            <li>Conceitos básicos do GitHub Copilot parte 2 de 2.</li>
+                            <li>Conceitos básicos do GitHub Copilot parte 1 de 2.</li>
+                            <li>Acelerar o desenvolvimento de aplicativos usando o GitHub Copilot.</li>
+                            <li>Analista de Desenvolvimento de Sistemas.</li>
+                            <li>Programador de Sistemas de Informação.</li>
+                        </ol>
+                    </article>
+                </section>
+
+                <!-- Idiomas -->
+                <!-- <section class="mb-6 cv-block">
+                    <article>
+                        <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
+                            <span>Idiomas</span>
+                            <span class="flex-1 h-[1px] bg-slate-200"></span>
+                        </h3>
+                        <ol class="text-[12px] text-justify list-decimal list-inside">
+                            <li>Português (Nativo)</li>
+                            <li>Inglês (B2 Preliminary)</li>
+                        </ol>
+                    </article>
+                </section> -->
+
+                <!-- Informações Adicionais -->
+                <section class="mb-6 cv-block">
+                    <article>
+                        <h3 class="text-sm font-extrabold uppercase tracking-wider mb-2 flex items-center gap-2">
+                            <span>Informações Adicionais</span>
+                            <span class="flex-1 h-[1px] bg-slate-200"></span>
+                        </h3>
+                        <p class="text-[12px] text-justify">
+                            Disponibilidade para início imediato.
+                        </p>
+                    </article>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Principal -->
+    <footer class="bg-slate-900 py-4 text-center text-xs text-[--bg-primary-color] no-print">
+        <strong>
+            Copyright 2026
+            <a class="text-[--text-primary-color]" href="https://github.com/edusantsales/edusantsales">edusantsales</a>.
+            Todos os direitos reservados.
+        </strong>
+    </footer>
+</body>
+
+</html>
