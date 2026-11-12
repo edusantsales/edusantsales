@@ -36,20 +36,40 @@ class Skills extends Desenvolvedor {
 -->
 ## Sobre mim
 
-🚀 Desenvolvedor Mobile com mais de 6 anos de experiência em Flutter e Dart, entregando soluções robustas, escaláveis e alinhadas às necessidades reais dos usuários.
+👋 Engenheiro de Software Mobile com mais de 6 anos de experiência construindo ecossistemas de alta escala em Flutter e iOS. Ajudo empresas a eliminarem atrasos de lançamento, crash rates elevados e dívida técnica através de arquitetura robusta e engenharia acelerada por IA.
 
-🎓 Graduado em Análise e Desenvolvimento de Sistemas pela Faculdade SENAI Fatesg, tenho mais de 6 anos de trajetória no desenvolvimento de software, com foco nos últimos anos em mobile.
+💭 A maioria das empresas não perde usuários por falta de ideias, mas por aplicativos que travam, engasgam em escala ou demoram meses para lançar uma nova funcionalidade.
 
-💡 Sou movido pela paixão em transformar necessidades em aplicações reais, com atenção à performance, usabilidade, qualidade de código, resolução de problemas, desenvolver com propósito e entregar produtos que façam sentido, sempre com uma visão prática, criativa e estratégica.
+🔥 Quando a arquitetura nasce frágil, cada nova sprint vira um combate a incêndios. O acúmulo de dívida técnica, crash rates elevados e retrabalhos constantes não apenas frustram o usuário final, mas drenam a produtividade do time e congelam a inovação do negócio. O custo de uma engenharia sem sustentabilidade é medido em perda direta de receita e tração de mercado.
 
-📱 Atualmente, minha atuação está 100% voltada ao desenvolvimento mobile. Flutter e Dart são minha stack principal e as escolhi por sua produtividade, versatilidade e aderência aos meus objetivos profissionais. 
+💻 É exatamente esse gargalo que elimino. Desenvolvo apps de alta performance e resiliência combinando o poder multiplataforma do Flutter (Dart) com as especificidades do iOS nativo (Swift, SwiftUI, UIKit), acelerando o ciclo de desenvolvimento através de esteiras modernas orientadas por Inteligência Artificial (AI-Driven Development).
 
-🎯 Estou continuamente me aperfeiçoando e aprofundando meus conhecimentos em Flutter, ampliando horizontes com Swift, UIKit e SwiftUI para projetos nativos iOS e expandir meu alcance como desenvolvedor mobile.
+## 🚀 Como atuo para gerar impacto real:
 
-📚 Tenho como princípio o aprendizado constante e a busca por excelência, com o objetivo de gerar valor para as empresas através de soluções bem projetadas, intuitivas e alinhadas às necessidades do negócio.
+🔹 Arquitetura Escalável & Escala Nacional: Concepção e implantação de Monorepos Modulares e Clean Architecture em aplicações de grande porte, permitindo que times cresçam sem degradar a estabilidade da base de código.
 
-🤝 Valorizo o trabalho em equipe, a comunicação clara e a colaboração. Estou sempre pronto para ajudar, aprender e crescer junto com o time.
+🔹 Qualidade Extrema & Confiabilidade: Cobertura de testes robusta (90%+ em testes unitários, integração e UI), observabilidade ativa e redução agressiva de crash rate para garantir experiências fluidas e contínuas.
+
+🔹 Engenharia Orientada por IA (AI-Driven): Redução de time-to-market com rigor técnico, utilizando Spec-Driven Development (SDD), Engenharia de Prompt & Contexto, Engenharia de Harness e integração de Agentes de IA focados em automação e zero retrabalho.
+
+🔹 Ponte entre Negócio e Código: Colaboração direta com PMs, designers e backends para transformar requisitos complexos em produtos intuitivos, seguros e rentáveis.
+
+## 🛠️ Stack & Ferramentas:
+
+🔹 Mobile: Flutter, Dart, Swift, SwiftUI, UIKit
+
+🔹 Arquitetura: Clean Architecture, Monorepo Modular, SDD, TDD, CI/CD
+
+🔹 AI Engineering: Agentes & Skills, Prompt/Context Engineering, Harness Engineering
+
+🔹 Cloud Services: Firebase (Auth, Firestore, Crashlytics, Analytics, Cloud Messaging), Supabase
+
+---
+
+💡 Buscando elevar a estabilidade, arquitetura e a velocidade de entrega dos produtos mobile da sua organização?
+
+📬 Envie-me uma mensagem no [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/edusantsales/) para conversarmos sobre novos projetos e desafios técnicos.
 
 ## Siga-me
 
-[![github](https://img.shields.io/badge/github-37393A?style=for-the-badge)](https://www.github.com/edusantsales)  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/edusantsales/)  [![instagram](https://img.shields.io/badge/instagram-CD486B?style=for-the-badge)](https://www.instagram.com/edusantsales)
+[![github](https://img.shields.io/badge/github-37393A?style=for-the-badge)](https://www.github.com/edusantsales)  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/edusantsales/)
